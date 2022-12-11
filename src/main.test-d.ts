@@ -1,8 +1,8 @@
 import { expectType, expectAssignable } from 'tsd'
 
-import templateTypeScript, { type Options } from 'template-typescript'
+import templateName, { type Options } from 'template-name'
 
-expectType<object>(templateTypeScript(true))
+expectType<object>(templateName(true))
 
-templateTypeScript(true, {})
+templateName(true, {})
 expectAssignable<Options>({})
