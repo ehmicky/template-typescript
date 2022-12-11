@@ -5,9 +5,9 @@
  * ```
  */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-const templateMain = (value: unknown, options?: Options): unknown => value
+const templateName = (value: unknown, options?: Options): unknown => value
 
-export default templateMain
+export default templateName
 
 /**
  * `template-name` options
