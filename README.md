@@ -41,9 +41,9 @@ not `require()`.
 
 ## templateName(value, options?)
 
-`value` `any`\
+`value` `unknown`\
 `options` [`Options?`](#options)\
-_Return value_: [`object`](#return-value)
+_Return value_: [`unknown`](#return-value)
 
 ### Options
 
