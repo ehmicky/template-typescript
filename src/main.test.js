@@ -1,7 +1,7 @@
 import test from 'ava'
 
-import templateName from 'template-name'
+import templateTypeScript from 'template-typescript'
 
 test('Dummy test', (t) => {
-  t.true(templateName(true))
+  t.true(templateTypeScript(true))
 })

@@ -1,5 +1,5 @@
 /**
- * `template-name` options
+ * `template-typescript` options
  */
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface Options {}
@@ -10,4 +10,4 @@ export interface Options {}
  * ```js
  * ```
  */
-export default function templateName(value: unknown, options?: Options): object
+export default function templateTypeScript(value: unknown, options?: Options): object
